@@ -1,0 +1,35 @@
+header {
+    text-align: center;
+    border-bottom: 1px solid gray;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 5px;
+    background: #1e3d59;
+}
+
+.pheader ul{
+    list-style: none;
+    padding: 0;
+    padding: 20px;
+}
+
+.pheader ul li {
+    display: inline-block;
+    background: #ffc13b;
+    /* margin-right: 20px; */
+    padding: 0px 10px;
+}
+
+.pheader ul li a {
+    background: #115693;
+    text-decoration: none;
+    border-radius: 15px 15px;
+    color: white;
+    padding: 20px;
+}
+
+.pheader ul li a:hover {
+    color: #ffc13b;
+}
