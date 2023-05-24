@@ -12,7 +12,7 @@ header {
 .pheader ul{
     list-style: none;
     padding: 0;
-    padding: 20px;
+    padding: 5px;
 }
 
 .pheader ul li {
@@ -25,9 +25,10 @@ header {
 .pheader ul li a {
     background: #115693;
     text-decoration: none;
-    border-radius: 15px 15px;
+    border-radius: 10px 10px;
+    border: 1px solid #ffc13b;
     color: white;
-    padding: 20px;
+    padding: 15px;
 }
 
 .pheader ul li a:hover {
