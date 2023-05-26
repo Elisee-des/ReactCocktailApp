@@ -1,6 +1,7 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 import PublicRouter from '@/pages/public/PublicRouter';
+import AdminRouter from '@/pages/admin/AdminRouter';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/*' element={<PublicRouter/>} />
+          <Route path='/admin/*' element={<AdminRouter/>} />
         </Routes>
       </BrowserRouter>
     </div>
